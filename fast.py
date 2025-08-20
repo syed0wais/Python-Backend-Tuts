@@ -50,3 +50,5 @@ def delete_user(user_id: int):
     global users
     users = [u for u in users if u["id"] != user_id]
     return {"message": "User deleted"}
+
+

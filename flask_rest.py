@@ -9,6 +9,11 @@ users = [
 ]       
 
 
+
+
+
+
+
 # 1. GET all users
 @app.route("/users", methods=["GET"])
 def get_users():
